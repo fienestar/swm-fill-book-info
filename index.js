@@ -4,7 +4,7 @@ function setItem(id, name, fee, purpose)
     const nameElement = gi(`eduNm_${id}`)
     nameElement.value = name
     const purposeElement = gi(`eduPurpose_${id}`)
-    purposeElement.value = '프로젝트 개발을 위한 공부에 필요합니다.'
+    purposeElement.value = purpose
     const typeElement = gi(`eduForm_${id}`)
     typeElement.value = '도서'
     const feeElement = gi(`eduFee_${id}`)
